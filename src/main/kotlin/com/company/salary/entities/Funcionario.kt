@@ -11,6 +11,6 @@ data class Funcionario(
     val id: Long?,
     val nome: String,
     val sobrenome: String,
-    val area:
+    val area: Area,
     val salario: Double
 )

@@ -12,7 +12,7 @@ data class FuncionarioDTO(
     val id: Long?,
     val nome: String,
     val sobrenome: String,
-    val area:
+    val area: AreaDTO,
     val salario: Double
 
 )
